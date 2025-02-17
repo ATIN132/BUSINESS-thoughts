@@ -10,16 +10,15 @@ body {
 }
 
 .tm {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
 }
 
 .t1{
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -30,10 +29,8 @@ body {
 
 .t2 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -43,10 +40,8 @@ body {
 
 .t3 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -57,10 +52,8 @@ body {
 
 .t4 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -70,10 +63,8 @@ body {
 
 .t5 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -84,10 +75,8 @@ body {
 
 .t6 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -97,10 +86,8 @@ body {
 
 .t7 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -111,10 +98,8 @@ body {
 
 .t8 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
@@ -124,10 +109,8 @@ body {
 
 .t9 {
     transition: padding 0.1s;
-    flex-direction: row;
     width: 33%;
     height: 33%;
-    justify-content: space-around;
     border: 3px solid black;
     border-radius: 10px;
     height: 400px;
